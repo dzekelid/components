@@ -28,7 +28,7 @@ apis:
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-delete.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
