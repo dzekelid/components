@@ -29,7 +29,28 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-patch.md
+- name: Azure Application Insights API List Components
+  description: Gets a list of all Application Insights components within a subscription.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: http:://management.azure.com//
+  tags: Components
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-providers-microsoft-insights-components-get.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-providers-microsoft-insights-components-get-postman.md
 x-common:
+- type: x-documentation
+  url: https://docs.microsoft.com/en-us/azure/application-insights/
+- type: x-pricing
+  url: https://azure.microsoft.com/en-us/pricing/details/application-insights/
+- type: x-service-level-agreements
+  url: https://azure.microsoft.com/en-us/support/legal/sla/application-insights/
+- type: x-status
+  url: https://azure.microsoft.com/en-us/status/
+- type: x-website
+  url: https://azure.microsoft.com/en-us/services/application-insights/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
 - type: x-pricing
