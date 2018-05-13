@@ -26,21 +26,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/bitbucket/repositories-username-repo-slug-components-component-id-parameters.md
-- name: Bitbucket Get Repositories Username Repo Slug Components
-  description: |-
-    Returns the components that have been defined in the issue tracker.
-
-    This resource is only available on repositories that have the issue
-    tracker enabled.
+- name: Bitbucket Parameters Repositories Username Repo Slug Components
+  description: Parameters repositories username repo slug components
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-parameters.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-parameters-postman.md
 x-common:
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
