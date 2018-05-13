@@ -1,13 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: Application Insights API
-  description: Application Insights (in preview) is an all-in-one telemetry solution
-    that can help you detect issues, triage impact and solve problems in your web
-    apps and services. It provides deep diagnostics and real-time insights while being
-    a seamless part of your ALM processes through Visual Studio, Visual Studio Team
-    Services, and Azure Diagnostics integrations. It supports ASP.NET, J2EE and most
-    of the popular web technologies for web apps on Azure or on your own servers.
+  title: Azure Application Insights API Update Components Tags
+  description: Updates an existing component's tags. To update other fields use the
+    CreateOrUpdate method.
   version: 1.0.0
 host: management.azure.com
 basePath: /
