@@ -29,16 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-patch.md
-- name: Azure Application Insights API Create or Update Components
-  description: 'Creates (or updates) an Application Insights component. Note: You
-    cannot specify a different value for InstrumentationKey nor AppId in the Put operation.'
+- name: Azure Application Insights API Update Components Tags
+  description: Updates an existing component's tags. To update other fields use the
+    CreateOrUpdate method.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
   humanURL: https://azure.microsoft.com/en-us/services/application-insights/
   baseURL: http:://management.azure.com//
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-put.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-patch.md
 x-common:
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
