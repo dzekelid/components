@@ -1,57 +1,83 @@
 ---
 name: Bitbucket
+x-slug: bitbucket
 description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
   data into your own site, build mobile or desktop apps, or even add custom UI add-ons
   into Bitbucket itself using the Connect framework.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
 x-kinRank: "8"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Imports
-- Developers
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/bitbucket/apis.yaml
+tags: Components
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
+- name: Bitbucket Get Repositories Username Repo Slug Components
+  x-api-slug: bitbucket
+  description: |-
+    Returns the components that have been defined in the issue tracker.
+
+    This resource is only available on repositories that have the issue
+    tracker enabled.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components
+  tags: Repositories, Username, Repo, Slug, Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponents-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponents-get-openapi.md
+- name: Bitbucket Parameters Repositories Username Repo Slug Components
+  x-api-slug: bitbucket
+  description: Parameters repositories username repo slug components
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components
+  tags: Repositories, Username, Repo, Slug, Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponents-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponents-parameters-openapi.md
+- name: Bitbucket Get Repositories Username Repo Slug Components Component
+  x-api-slug: bitbucket
+  description: Get repositories username repo slug components component
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components/{component_id}
+  tags: Repositories, Username, Repo, Slug, Components, Component
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-get-openapi.md
+- name: Bitbucket Parameters Repositories Username Repo Slug Components Component
+  x-api-slug: bitbucket
+  description: Parameters repositories username repo slug components component
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
+  humanURL: https://bitbucket.org/
+  baseURL: https://api.bitbucket.org//2.0//repositories/{username}/{repo_slug}/components/{component_id}
+  tags: Repositories, Username, Repo, Slug, Components, Component
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-openapi.md
 - name: Bitbucket
+  x-api-slug: bitbucket
   description: Code against the Bitbucket API to automate simple tasks, embed Bitbucket
     data into your own site, build mobile or desktop apps, or even add custom UI add-ons
-    into Bitbucket itself using the Connect framework
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
-  humanURL: ""
-  baseURL: https://api.bitbucket.org//2.0
-  tags: Components
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/bitbucket/repositories-username-repo-slug-components-component-id-parameters.md
-- name: Bitbucket Parameters Repositories Username Repo Slug Components Component
-  description: Parameters repositories username repo slug components component
+    into Bitbucket itself using the Connect framework.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bitbucket-logo.png
   humanURL: https://bitbucket.org/
   baseURL: https://api.bitbucket.org//2.0
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-component-id-parameters.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositories-username-repo-slug-components-component-id-parameters-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/openapi.md
 x-common:
-- type: x-developer
-  url: https://developer.atlassian.com/cloud/bitbucket/
-- type: x-documentation
-  url: https://confluence.atlassian.com/bitbucket/bitbucket-cloud-documentation-221448814.html?_ga=2.77295890.629375793.1519179030-1077111323.1516485126
-- type: x-status
-  url: https://status.bitbucket.org/?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
-- type: x-support
-  url: https://support.atlassian.com/bitbucket-cloud/
-- type: x-terms-of-service
-  url: https://www.atlassian.com/legal/customer-agreement?_ga=2.76365714.629375793.1519179030-1077111323.1516485126
-- type: x-twitter
-  url: https://twitter.com/bitbucket
-- type: x-website
-  url: https://bitbucket.org/
 - type: x-developer
   url: https://developer.atlassian.com/cloud/bitbucket/
 - type: x-documentation

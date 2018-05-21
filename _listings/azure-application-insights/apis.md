@@ -1,5 +1,6 @@
 ---
 name: Azure Application Insights
+x-slug: azure-application-insights
 description: Get rich performance monitoring, powerful alerting, and easy-to-consume
   dashboards to help ensure your applications are available and performing as you
   expect. Quickly see if you have a problem, how many customers are affected, and
@@ -7,49 +8,98 @@ description: Get rich performance monitoring, powerful alerting, and easy-to-con
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Testing
-- Stack Network
-- Monitoring
-- Microsoft
-- Diagnostics
-created: "2018-03-13"
-modified: "2018-03-13"
-url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/apis.yaml
+tags: Components
+created: "2018-05-20"
+modified: "2018-05-20"
+url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Azure Application Insights API
-  description: Get rich performance monitoring, powerful alerting, and easy-to-consume
-    dashboards to help ensure your applications are available and performing as you
-    expect
+- name: Azure Application Insights API List Components
+  x-api-slug: azure-application-insights-api
+  description: Gets a list of all Application Insights components within a subscription.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
-  humanURL: ""
-  baseURL: ://management.azure.com//
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/providers/microsoft.insights/components
+  tags: Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoftinsightscomponents-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoftinsightscomponents-get-openapi.md
+- name: Azure Application Insights API List Components By Resource Group
+  x-api-slug: azure-application-insights-api
+  description: Gets a list of Application Insights components within a resource group.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components
+  tags: Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponents-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponents-get-openapi.md
+- name: Azure Application Insights API Delete Components
+  x-api-slug: azure-application-insights-api
+  description: Deletes an Application Insights component.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}
+  tags: Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-delete-openapi.md
+- name: Azure Application Insights API Get Components
+  x-api-slug: azure-application-insights-api
+  description: Returns an Application Insights component.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}
+  tags: Components
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-get-openapi.md
+- name: Azure Application Insights API Create or Update Components
+  x-api-slug: azure-application-insights-api
+  description: 'Creates (or updates) an Application Insights component. Note: You
+    cannot specify a different value for InstrumentationKey nor AppId in the Put operation.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-put-openapi.md
 - name: Azure Application Insights API Update Components Tags
+  x-api-slug: azure-application-insights-api
   description: Updates an existing component's tags. To update other fields use the
     CreateOrUpdate method.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
   humanURL: https://azure.microsoft.com/en-us/services/application-insights/
-  baseURL: http:://management.azure.com//
+  baseURL: ://management.azure.com////subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/microsoft.insights/components/{resourceName}
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptions-subscriptionid-resourcegroups-resourcegroupname-providers-microsoft-insights-components-resourcename-patch.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-patch-openapi.md
+- name: Azure Application Insights API
+  x-api-slug: azure-application-insights-api
+  description: Application Insights (in preview) is an all-in-one telemetry solution
+    that can help you detect issues, triage impact and solve problems in your web
+    apps and services. It provides deep diagnostics and real-time insights while being
+    a seamless part of your ALM processes through Visual Studio, Visual Studio Team
+    Services, and Azure Diagnostics integrations. It supports ASP.NET, J2EE and most
+    of the popular web technologies for web apps on Azure or on your own servers.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com//
+  tags: Components
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/openapi.md
 x-common:
-- type: x-documentation
-  url: https://docs.microsoft.com/en-us/azure/application-insights/
-- type: x-pricing
-  url: https://azure.microsoft.com/en-us/pricing/details/application-insights/
-- type: x-service-level-agreements
-  url: https://azure.microsoft.com/en-us/support/legal/sla/application-insights/
-- type: x-status
-  url: https://azure.microsoft.com/en-us/status/
-- type: x-website
-  url: https://azure.microsoft.com/en-us/services/application-insights/
 - type: x-documentation
   url: https://docs.microsoft.com/en-us/azure/application-insights/
 - type: x-pricing
