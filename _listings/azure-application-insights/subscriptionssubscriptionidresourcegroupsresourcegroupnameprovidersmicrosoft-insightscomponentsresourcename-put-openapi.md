@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Azure Application Insights
-x-complete: 1
+x-complete: 0
 info:
-  title: Application Insights API
-  description: application-insights-in-preview-is-an-allinone-telemetry-solution-that-can-help-you-detect-issues-triage-impact-and-solve-problems-in-your-web-apps-and-services--it-provides-deep-diagnostics-and-realtime-insights-while-being-a-seamless-part-of-your-alm-processes-through-visual-studio-visual-studio-team-services-and-azure-diagnostics-integrations--it-supports-asp-net-j2ee-and-most-of-the-popular-web-technologies-for-web-apps-on-azure-or-on-your-own-servers-
+  title: Azure Application Insights API Create or Update Components
+  description: 'Creates (or updates) an Application Insights component. Note: You
+    cannot specify a different value for InstrumentationKey nor AppId in the Put operation.'
   version: 1.0.0
 host: management.azure.com
 basePath: /
@@ -92,23 +93,17 @@ paths:
           description: OK
       tags:
       - Components
-    patch:
-      summary: Update Components Tags
-      description: Updates an existing component's tags. To update other fields use
-        the CreateOrUpdate method.
-      operationId: Components_UpdateTags
-      x-api-path-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-patch
-      parameters:
-      - in: body
-        name: ComponentTags
-        description: Updated tag information to set into the component instance
-        schema:
-          $ref: '#/definitions/holder'
-      - in: query
-        name: No Name
-      responses:
-        200:
-          description: OK
-      tags:
-      - Components
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

@@ -7,10 +7,10 @@ description: Get rich performance monitoring, powerful alerting, and easy-to-con
   perform a root cause analysis to find and fix the issue.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Components
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,9 +23,9 @@ apis:
   tags: Components
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoftinsightscomponents-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoft-insightscomponents-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoftinsightscomponents-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidprovidersmicrosoft-insightscomponents-get-openapi.md
 - name: Azure Application Insights API List Components By Resource Group
   x-api-slug: azure-application-insights-api
   description: Gets a list of Application Insights components within a resource group.
@@ -35,9 +35,9 @@ apis:
   tags: Components
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponents-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponents-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponents-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponents-get-openapi.md
 - name: Azure Application Insights API Delete Components
   x-api-slug: azure-application-insights-api
   description: Deletes an Application Insights component.
@@ -47,9 +47,9 @@ apis:
   tags: Components
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-delete-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-delete-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-delete-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-delete-openapi.md
 - name: Azure Application Insights API Get Components
   x-api-slug: azure-application-insights-api
   description: Returns an Application Insights component.
@@ -59,9 +59,9 @@ apis:
   tags: Components
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-get-openapi.md
 - name: Azure Application Insights API Create or Update Components
   x-api-slug: azure-application-insights-api
   description: 'Creates (or updates) an Application Insights component. Note: You
@@ -72,7 +72,7 @@ apis:
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-put-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-put-openapi.md
 - name: Azure Application Insights API Update Components Tags
   x-api-slug: azure-application-insights-api
   description: Updates an existing component's tags. To update other fields use the
@@ -83,7 +83,7 @@ apis:
   tags: Components
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoftinsightscomponentsresourcename-patch-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-patch-openapi.md
 - name: Azure Application Insights API
   x-api-slug: azure-application-insights-api
   description: Application Insights (in preview) is an all-in-one telemetry solution

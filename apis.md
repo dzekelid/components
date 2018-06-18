@@ -4,7 +4,7 @@ description: This is a repository of components APIs, self-contained as a Github
   with HTML and YAML representations of the APIs and their surrounding operations.
 image: http://template.streamdata.gallery/assets/components.png
 created: "2018-02-24"
-modified: "2018-05-20"
+modified: "2018-06-18"
 url: http://components.streamdata.gallery/apis.json
 specificationVersion: "0.14"
 apis: []
@@ -17,7 +17,7 @@ include:
 - name: New Relic
   url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/apis.yaml
 - name: StatusPage.io
-  url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/statuspageio/apis.yaml
+  url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/statuspage-io/apis.yaml
 maintainers:
 - FN: Kin Lane
   x-twitter: apievangelist

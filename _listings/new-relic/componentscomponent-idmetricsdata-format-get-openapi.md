@@ -1,10 +1,18 @@
 ---
 swagger: "2.0"
 x-collection-name: New Relic
-x-complete: 1
+x-complete: 0
 info:
-  title: New Relic
+  title: New Relic Get Components Component  Metrics Data. Format
   version: 1.0.0
+  description: "This API endpoint returns a list of values for each of the requested
+    metrics. The list of available metrics\ncan be returned using the Metric Name
+    API endpoint.\n\nMetric data can be filtered by a number of parameters, including
+    multiple names and values, and by time range.\nMetric names and values will be
+    matched intelligently in the background.\n\nYou can also retrieve a summarized
+    data point across the entire time range selected by using the summarize\nparameter.\n\nSee
+    our documentation for a discussion on \noutput pagination,  time range \nrelated
+    considerations, and for examples of requesting and using metric values."
 basePath: v2/
 schemes:
 - http
@@ -163,4 +171,17 @@ paths:
       - Metrics
       - Data.
       - Format
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---

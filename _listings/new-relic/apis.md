@@ -1,16 +1,14 @@
 ---
 name: New Relic
 x-slug: new-relic
-description: New Relic offers SaaS Software Analytics Platform that offers Application
-  Performance Management and Real User Monitoring for Cloud and Data Center deployed
-  web applications implemented in Ruby, Java, .NET, Python, PHP, Node.js. New Relic
-  also offers mobile monitoring solutions for iOS and Android applications.
-image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+description: New Relic???s digital intelligence platform lets developers, ops, and
+  tech teams measure and monitor the performance of their applications and infrastructure.
+image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
 x-kinRank: "8"
-x-alexaRank: ""
+x-alexaRank: "10322"
 tags: Components
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-18"
+modified: "2018-06-18"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,30 +21,30 @@ apis:
 
     See our documentation for a discussion on  listing components
     and  output pagination.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///components.{format}
   tags: Components., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/components-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/components-format-get-openapi.md
 - name: New Relic Get Components  . Format
   x-api-slug: new-relic
   description: |-
     This API endpoint returns a single component, identified by its ID.
 
     See our documentation for a discussion on listing components by ID.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///components/{id}.{format}
   tags: Components, , ., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsidformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsid-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsidformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentsid-format-get-openapi.md
 - name: New Relic Get Components Component  Metrics. Format
   x-api-slug: new-relic
   description: |-
@@ -55,15 +53,15 @@ apis:
     See our documentation for a discussion
     on  output pagination
     and for examples of requesting and using metric values.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///components/{component_id}/metrics.{format}
   tags: Components, Component, , Metrics., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetrics-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetrics-format-get-openapi.md
 - name: New Relic Get Components Component  Metrics Data. Format
   x-api-slug: new-relic
   description: "This API endpoint returns a list of values for each of the requested
@@ -74,22 +72,20 @@ apis:
     data point across the entire time range selected by using the summarize\nparameter.\n\nSee
     our documentation for a discussion on \noutput pagination,  time range \nrelated
     considerations, and for examples of requesting and using metric values."
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2///components/{component_id}/metrics/data.{format}
   tags: Components, Component, , Metrics, Data., Format
   properties:
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsdataformat-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsdata-format-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsdataformat-get-openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/new-relic/componentscomponent-idmetricsdata-format-get-openapi.md
 - name: New Relic
   x-api-slug: new-relic
-  description: New Relic offers SaaS Software Analytics Platform that offers Application
-    Performance Management and Real User Monitoring for Cloud and Data Center deployed
-    web applications implemented in Ruby, Java, .NET, Python, PHP, Node.js. New Relic
-    also offers mobile monitoring solutions for iOS and Android applications.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/newrelic-logo-square.png
+  description: New Relic???s digital intelligence platform lets developers, ops, and
+    tech teams measure and monitor the performance of their applications and infrastructure.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg
   humanURL: https://newrelic.com/
   baseURL: https:///v2/
   tags: Components
@@ -101,8 +97,26 @@ x-common:
   url: https://blog.newrelic.com/
 - type: x-blog-rss
   url: https://blog.newrelic.com/feed/
+- type: x-crunchbase
+  url: https://crunchbase.com/organization/new-relic
 - type: x-developer
   url: https://rpm.newrelic.com/api/explore/
+- type: x-email
+  url: billing@newrelic.com
+- type: x-email
+  url: resume@newrelic.com
+- type: x-email
+  url: PR@newrelic.com
+- type: x-email
+  url: copyright@newrelic.com
+- type: x-email
+  url: dataprivacy@newrelic.com
+- type: x-email
+  url: PersonalDataRequest@newrelic.com
+- type: x-email
+  url: support@newrelic.com
+- type: x-email
+  url: compliance@newrelic.com
 - type: x-github
   url: https://github.com/newrelic
 - type: x-twitter
