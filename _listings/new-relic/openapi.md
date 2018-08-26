@@ -13,41 +13,6 @@ produces:
 consumes:
 - application/json
 paths:
-  /components.{format}:
-    get:
-      summary: Get Components. Format
-      description: |-
-        This API endpoint returns a list of the plugin components associated with your New Relic account.
-
-        Plugins can be filtered by their name, the list of component IDs or a plugin ID.
-
-        See our documentation for a discussion on  listing components
-        and  output pagination.
-      operationId: getComponents.Format
-      x-api-path-slug: components-format-get
-      parameters:
-      - in: query
-        name: filter[ids]
-        description: Filter components by ids
-        type: list
-      - in: query
-        name: filter[name]
-        description: Filter components by name
-        type: string
-      - in: query
-        name: filter[plugin_id]
-        description: Filter components by the plugin
-        type: integer
-      - in: query
-        name: page
-        description: Pagination index
-        type: integer
-      responses:
-        200:
-          description: OK
-      tags:
-      - Components.
-      - Format
   /components/{id}.{format}:
     get:
       summary: Get Components  . Format
@@ -162,5 +127,40 @@ paths:
       - ""
       - Metrics
       - Data.
+      - Format
+  /components.{format}:
+    get:
+      summary: Get Components. Format
+      description: |-
+        This API endpoint returns a list of the plugin components associated with your New Relic account.
+
+        Plugins can be filtered by their name, the list of component IDs or a plugin ID.
+
+        See our documentation for a discussion on  listing components
+        and  output pagination.
+      operationId: getComponents.Format
+      x-api-path-slug: components-format-get
+      parameters:
+      - in: query
+        name: filter[ids]
+        description: Filter components by ids
+        type: list
+      - in: query
+        name: filter[name]
+        description: Filter components by name
+        type: string
+      - in: query
+        name: filter[plugin_id]
+        description: Filter components by the plugin
+        type: integer
+      - in: query
+        name: page
+        description: Pagination index
+        type: integer
+      responses:
+        200:
+          description: OK
+      tags:
+      - Components.
       - Format
 ---

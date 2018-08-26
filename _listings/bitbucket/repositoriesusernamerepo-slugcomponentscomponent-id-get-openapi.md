@@ -73,6 +73,21 @@ paths:
       - Slug
       - Components
       - Component
+    parameters:
+      summary: Parameters Repositories Username Repo Slug Components Component
+      description: Parameters repositories username repo slug components component
+      operationId: parametersRepositoriesUsernameRepoSlugComponentsComponent
+      x-api-path-slug: repositoriesusernamerepo-slugcomponentscomponent-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repositories
+      - Username
+      - Repo
+      - Slug
+      - Components
+      - Component
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
