@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlass
 x-kinRank: "8"
 x-alexaRank: "1656"
 tags: Components
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/apis.md
 specificationVersion: "0.14"
 apis:
@@ -303,6 +303,174 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2notificationscheme-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2notificationscheme-get-openapi.md
+- name: Jira Cloud REST API - Get component issues count
+  x-api-slug: api2componentidrelatedissuecounts-get
+  description: Returns the counts of issues assigned to the component. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** Permission to access Jira.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentidrelatedissuecounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentidrelatedissuecounts-get-openapi.md
+- name: Jira Cloud REST API - Get component issues count
+  x-api-slug: api2componentidrelatedissuecounts-get
+  description: Returns the counts of issues assigned to the component. **[Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required:** Permission to access Jira.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentidrelatedissuecounts-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentidrelatedissuecounts-get-openapi.md
+- name: Jira Cloud REST API - Delete component
+  x-api-slug: api2componentid-delete
+  description: |-
+    Deletes a component. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-delete-openapi.md
+- name: Jira Cloud REST API - Delete component
+  x-api-slug: api2componentid-delete
+  description: |-
+    Deletes a component. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-delete-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-delete-openapi.md
+- name: Jira Cloud REST API - Update component
+  x-api-slug: api2componentid-put
+  description: |-
+    Modifies a component. Any fields included in the request are overwritten. If `leadUserName` is an empty string ("") the component lead is removed. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-put-openapi.md
+- name: Jira Cloud REST API - Update component
+  x-api-slug: api2componentid-put
+  description: |-
+    Modifies a component. Any fields included in the request are overwritten. If `leadUserName` is an empty string ("") the component lead is removed. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-put-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-put-openapi.md
+- name: Jira Cloud REST API - Get component
+  x-api-slug: api2componentid-get
+  description: 'Returns a component. [Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required: _Browse projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-get-openapi.md
+- name: Jira Cloud REST API - Get component
+  x-api-slug: api2componentid-get
+  description: 'Returns a component. [Permissions](https://confluence.atlassian.com/x/FQiiLQ)
+    required: _Browse projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).'
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2componentid-get-openapi.md
+- name: Jira Cloud REST API - Create component
+  x-api-slug: api2component-post
+  description: |-
+    Creates a component. Use components to provide containers for issues within a project. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2component-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2component-post-openapi.md
+- name: Jira Cloud REST API - Create component
+  x-api-slug: api2component-post
+  description: |-
+    Creates a component. Use components to provide containers for issues within a project. [Permissions](https://confluence.atlassian.com/x/FQiiLQ) required: Any of the following:
+
+    *   _Administer Jira_ [global permission](https://confluence.atlassian.com/x/x4dKLg).
+    *   _Administer projects_ [project permission](https://confluence.atlassian.com/x/yodKLg).
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg
+  humanURL: http://atlassian.com/
+  baseURL: https:////
+  tags: Coding, Programming, Wiki, Issues, Code Issues, Stack Network, SaaS, Technology,
+    Enterprise, API Provider, API Service Provider, Profiles, Relative Data, Service
+    API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2component-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/atlassian/api2component-post-openapi.md
 x-common:
 - type: x-openapi
   url: https://developer.atlassian.com/cloud/jira/platform/swagger.v3.json

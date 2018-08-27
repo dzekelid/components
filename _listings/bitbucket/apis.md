@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitb
 x-kinRank: "8"
 x-alexaRank: "901"
 tags: Components
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/apis.md
 specificationVersion: "0.14"
 apis:
@@ -120,6 +120,32 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-openapi.md
+- name: Bitbucket - Parameters Repositories Username Repo Slug Components Component
+  x-api-slug: repositoriesusernamerepo-slugcomponentscomponent-id-parameters
+  description: Parameters repositories username repo slug components component
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-parameters-openapi.md
+- name: Bitbucket - Get Repositories Username Repo Slug Components Component
+  x-api-slug: repositoriesusernamerepo-slugcomponentscomponent-id-get
+  description: Get repositories username repo slug components component
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/19810-bitbucket.jpg
+  humanURL: http://bitbucket.org
+  baseURL: https://api.bitbucket.org//2.0
+  tags: Imports, Stack Network, Developers, Code, Technology, SaaS, Enterprise, Profiles,
+    Relative Data, Service API
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/bitbucket/repositoriesusernamerepo-slugcomponentscomponent-id-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://bigoven.api.gallery.streamdata.io

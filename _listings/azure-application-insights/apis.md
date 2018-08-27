@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Components
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/apis.md
 specificationVersion: "0.14"
 apis:
@@ -66,6 +66,30 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-get-openapi.md
+- name: Application Insights API - Create or Update Components
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-put
+  description: 'Creates (or updates) an Application Insights component. Note: You
+    cannot specify a different value for InstrumentationKey nor AppId in the Put operation.'
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Monitoring, Testing, Diagnostics, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-put-openapi.md
+- name: Application Insights API - Update Components Tags
+  x-api-slug: subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-patch
+  description: Updates an existing component's tags. To update other fields use the
+    CreateOrUpdate method.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/performance-management.png
+  humanURL: https://azure.microsoft.com/en-us/services/application-insights/
+  baseURL: ://management.azure.com//
+  tags: Microsoft, Monitoring, Testing, Diagnostics, Stack Network, API Service Provider,
+    API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/components/master/_listings/azure-application-insights/subscriptionssubscriptionidresourcegroupsresourcegroupnameprovidersmicrosoft-insightscomponentsresourcename-patch-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://azure.api.management.api.gallery.streamdata.io
